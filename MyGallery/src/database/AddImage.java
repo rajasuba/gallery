@@ -21,7 +21,7 @@ public class AddImage {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			con=DriverManager.getConnection("jdbc:mysql://localhost/dhivya","root","");		
-			imageRepo = "/Users/rajasubs/Desktop/gallery_app/";
+			imageRepo = "/Users/rajasubs/Desktop/image_files/";
 		} catch(Exception ex) {
 			System.out.println("Exception while creating mysql connection. Exception : " + ex);
 		}
